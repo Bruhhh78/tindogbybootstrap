@@ -1,0 +1,185 @@
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.container-fluid {
+    padding: 2% 15%;
+}
+
+h1 {
+    font-family: 'Montserrat-black';
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+/* Navigation Bar Section */
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat'
+}
+
+
+/* Download Buttons Section*/
+
+.download_button {
+    margin: 5% 3% 5% 0;
+}
+
+
+/* Title image Section*/
+
+.title_image {
+    width: 18%;
+    transform: rotate(22deg);
+    position: absolute;
+    right: 18%;
+}
+
+
+/* Features Section*/
+
+#features {
+    padding: 3% 8%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+p {
+    color: 8f8f8f;
+}
+
+.feature_box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon_ {
+    color: #f87488;
+    margin-bottom: 1rem;
+}
+
+.icon_:hover {
+    color: #ff4c68;
+}
+
+
+/* Testimonial Section*/
+
+#testimonials {
+    text-align: center;
+    background-color: #f87488;
+    color: white;
+}
+
+.testimonial_image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 4% 15%;
+}
+
+
+/* Press Section */
+
+#press {
+    background-color: #f87488;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.press_logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* Pricing Section */
+
+#pricing {
+    text-align: center;
+    padding: 2% 8%;
+    /* padding: 100px; */
+}
+
+.pricing_heading {
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title_image {
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+    }
+}
+
+
+/* Call to Action Section */
+
+#cta {
+    background-color: #ff4c68;
+    color: white;
+    padding: 2% 23%;
+    text-align: center;
+}
+
+.cta_heading {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+}
+
+
+/* Footer-Section */
+
+#footer {
+    text-align: center;
+}
+
+.footer_images {
+    margin: 8px;
+}
+
+.imgg {
+    margin: 0 8px;
+}
